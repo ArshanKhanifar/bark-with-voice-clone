@@ -3,3 +3,7 @@ __pycache__/
 _temp/
 models/
 output.npz
+.DS_Store
+.idea
+arshan.txt
+

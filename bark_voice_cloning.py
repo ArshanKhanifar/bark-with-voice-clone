@@ -151,12 +151,16 @@ def talk():
     return audio_array
 
 
-CLONE, VOICE_NAME = False, "joerogan"
+CLONE, VOICE_NAME = False, "matthew"
 
-text_prompt = "The Washington Post is set to publish a story tomorrow taking aim at conservative " \
-              "groups requesting documents from universities over their ties to “disinformation” " \
-              "tracking and the US government, according to a source familiar with the matter."
+# text_prompt = "The Washington Post is set to publish a story tomorrow taking aim at conservative " \
+#              "groups requesting documents from universities over their ties to “disinformation” " \
+#              "tracking and the US government, according to a source familiar with the matter."
 
+text_prompt = "Suppose that A and B are disjoint events, each with positive probability. Can " \
+              "they be independent? No. This follows since P(A)P(B) > 0 yet P(AB) = P(∅) = 0. " \
+              "Except in this special case, there is no way to judge independence by " \
+              "looking at the sets in a Venn diagram."
 
 @stub.local_entrypoint()
 def main():
